@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import { Link } from 'react-router-dom';
 
 function Login(props) {
   // setting state of email and password, and creating the setState functions for each 
@@ -28,9 +27,7 @@ function Login(props) {
       // set logged in state to true
     })
     .catch(err => console.log('error in fetch request', err));
-    
-    // props.handleLogIn();
-  }
+    }
 
   // return:
   // a form with 

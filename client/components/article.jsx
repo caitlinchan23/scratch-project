@@ -30,8 +30,6 @@ class Article extends Component {
   }
   
   
-  
-  
 // needs title, url, update button, delete button
 // update button needs a handle click function
 // delete button needs a handle click function
